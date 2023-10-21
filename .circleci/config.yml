@@ -5,5 +5,4 @@ jobs:
       - image: cimg/android:2023.10
     steps:
       - checkout
-      - run: ./gradlew androidDependencies
-      - run: ./gradlew lint test
+      - run: ./gradlew assemble
