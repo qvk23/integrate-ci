@@ -45,6 +45,7 @@ jobs:
 workflows:
   build-apk:
     jobs:
-      - build:
-          branches:
-            - only: master
+      build:
+        branches:
+          only:
+            - master
